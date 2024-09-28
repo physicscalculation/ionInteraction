@@ -28,6 +28,7 @@ class MainWindow(QtWidgets.QMainWindow):
         self.N_AVAGADRO = 6.02214076e23
         self.data_folder = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data')
         self.results_folder = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'Results')
+        # self.results_folder = os.path.join('C:\\', 'Results') # Change this line for Windows app
 
 
 
