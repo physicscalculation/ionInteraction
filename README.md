@@ -2,6 +2,12 @@
 
 The Ion Interaction: A small open-source software tool designed to calculate ...
 
+<!--
+https://youtu.be/i2fJau_8EJE?si=Ck4wtqnYSKsxEzxN
+-->
+
+https://img.youtube.com/vi/Ck4wtqnYSKsxEzxN/0.jpg
+
 ![ionInteraction1](ionInteraction/guidata/ionInteraction1.png)
 
 ![ionInteraction2](ionInteraction/guidata/ionInteraction2.png)
