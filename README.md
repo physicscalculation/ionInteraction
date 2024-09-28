@@ -2,7 +2,9 @@
 
 The Ion Interaction: A small open-source software tool designed to calculate ...
 
-![ionInteraction](ionInteraction/guidata/ionInteraction.png)
+![ionInteraction1](ionInteraction/guidata/ionInteraction1.png)
+
+![ionInteraction2](ionInteraction/guidata/ionInteraction2.png)
 
 This work was originally written to support the following paper, submitted to a journal:
 
