@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
  <class>MainWindow</class>
- <widget class="QMainWindow" name="Ion Interaction">
+ <widget class="QMainWindow" name="InChaP">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -17,7 +17,7 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>Ion Interaction</string>
+   <string>InChaP</string>
   </property>
   <property name="styleSheet">
    <string notr="true">*{
@@ -367,7 +367,7 @@ QComboBox QListView {
                 </font>
                </property>
                <property name="text">
-                <string notr="true">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:24pt; color:#113e68;&quot;&gt;Ion Interaction&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                <string notr="true">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:24pt; color:#113e68;&quot;&gt;InChaP&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                </property>
                <property name="wordWrap">
                 <bool>true</bool>
@@ -4386,7 +4386,7 @@ QComboBox QListView {
              <item alignment="Qt::AlignBottom">
               <widget class="QLabel" name="label_2">
                <property name="text">
-                <string>Ion Interaction</string>
+                <string>InChaP</string>
                </property>
                <property name="textFormat">
                 <enum>Qt::AutoText</enum>

@@ -3,7 +3,7 @@
 ################################################################################
 ## Form generated from reading UI file 'main.ui'
 ##
-## Created by: Qt User Interface Compiler version 6.6.3
+## Created by: Qt User Interface Compiler version 6.7.3
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
@@ -23,19 +23,19 @@ from PySide6.QtWidgets import (QAbstractItemView, QApplication, QComboBox, QFram
 import icons_rc
 
 class Ui_MainWindow(object):
-    def setupUi(self, Ion_Interaction):
-        if not Ion_Interaction.objectName():
-            Ion_Interaction.setObjectName(u"Ion_Interaction")
-        Ion_Interaction.resize(1301, 702)
-        Ion_Interaction.setMinimumSize(QSize(1301, 702))
-        Ion_Interaction.setStyleSheet(u"*{\n"
+    def setupUi(self, InChaP):
+        if not InChaP.objectName():
+            InChaP.setObjectName(u"InChaP")
+        InChaP.resize(1301, 702)
+        InChaP.setMinimumSize(QSize(1301, 702))
+        InChaP.setStyleSheet(u"*{\n"
 "	border: 0px solid rgb(44, 49, 58);\n"
 "}\n"
 "\n"
 "#line{\n"
 "	border: 7px solid rgb(44, 49, 58);\n"
 "}")
-        self.stylesheet = QWidget(Ion_Interaction)
+        self.stylesheet = QWidget(InChaP)
         self.stylesheet.setObjectName(u"stylesheet")
         self.stylesheet.setStyleSheet(u"#main ,#page_main,#page_about{	\n"
 "	background-color: rgb(192,192,192);\n"
@@ -321,7 +321,7 @@ class Ui_MainWindow(object):
         font.setBold(True)
         font.setItalic(False)
         self.label_3.setFont(font)
-        self.label_3.setText(u"<html><head/><body><p align=\"center\"><span style=\" font-size:24pt; color:#113e68;\">Ion Interaction</span></p></body></html>")
+        self.label_3.setText(u"<html><head/><body><p align=\"center\"><span style=\" font-size:24pt; color:#113e68;\">InChaP</span></p></body></html>")
         self.label_3.setWordWrap(True)
 
         self.horizontalLayout_6.addWidget(self.label_3)
@@ -434,8 +434,8 @@ class Ui_MainWindow(object):
         palette.setBrush(QPalette.Disabled, QPalette.ToolTipText, brush1)
         self.ionRspLine.setPalette(palette)
         self.ionRspLine.setLineWidth(1)
-        self.ionRspLine.setFrameShape(QFrame.HLine)
-        self.ionRspLine.setFrameShadow(QFrame.Sunken)
+        self.ionRspLine.setFrameShape(QFrame.Shape.HLine)
+        self.ionRspLine.setFrameShadow(QFrame.Shadow.Sunken)
 
         self.verticalLayout_6.addWidget(self.ionRspLine)
 
@@ -505,15 +505,15 @@ class Ui_MainWindow(object):
 
         self.line_6 = QFrame(self.frame_3)
         self.line_6.setObjectName(u"line_6")
-        self.line_6.setFrameShape(QFrame.HLine)
-        self.line_6.setFrameShadow(QFrame.Sunken)
+        self.line_6.setFrameShape(QFrame.Shape.HLine)
+        self.line_6.setFrameShadow(QFrame.Shadow.Sunken)
 
         self.verticalLayout_6.addWidget(self.line_6)
 
         self.line_7 = QFrame(self.frame_3)
         self.line_7.setObjectName(u"line_7")
-        self.line_7.setFrameShape(QFrame.HLine)
-        self.line_7.setFrameShadow(QFrame.Sunken)
+        self.line_7.setFrameShape(QFrame.Shape.HLine)
+        self.line_7.setFrameShadow(QFrame.Shadow.Sunken)
 
         self.verticalLayout_6.addWidget(self.line_7)
 
@@ -960,8 +960,8 @@ class Ui_MainWindow(object):
 
         self.line_3 = QFrame(self.frame_4)
         self.line_3.setObjectName(u"line_3")
-        self.line_3.setFrameShape(QFrame.HLine)
-        self.line_3.setFrameShadow(QFrame.Sunken)
+        self.line_3.setFrameShape(QFrame.Shape.HLine)
+        self.line_3.setFrameShadow(QFrame.Shadow.Sunken)
 
         self.verticalLayout_7.addWidget(self.line_3)
 
@@ -969,8 +969,8 @@ class Ui_MainWindow(object):
         self.sentIonEnergyLine.setObjectName(u"sentIonEnergyLine")
         self.sentIonEnergyLine.setMinimumSize(QSize(25, 0))
         self.sentIonEnergyLine.setMaximumSize(QSize(16777215, 16777215))
-        self.sentIonEnergyLine.setFrameShape(QFrame.HLine)
-        self.sentIonEnergyLine.setFrameShadow(QFrame.Sunken)
+        self.sentIonEnergyLine.setFrameShape(QFrame.Shape.HLine)
+        self.sentIonEnergyLine.setFrameShadow(QFrame.Shadow.Sunken)
 
         self.verticalLayout_7.addWidget(self.sentIonEnergyLine)
 
@@ -1179,7 +1179,7 @@ class Ui_MainWindow(object):
         self.tableWidget_Chemical_Formula.horizontalHeader().setVisible(True)
         self.tableWidget_Chemical_Formula.horizontalHeader().setCascadingSectionResizes(False)
         self.tableWidget_Chemical_Formula.horizontalHeader().setHighlightSections(True)
-        self.tableWidget_Chemical_Formula.horizontalHeader().setProperty("showSortIndicator", False)
+        self.tableWidget_Chemical_Formula.horizontalHeader().setProperty(u"showSortIndicator", False)
         self.tableWidget_Chemical_Formula.horizontalHeader().setStretchLastSection(True)
         self.tableWidget_Chemical_Formula.verticalHeader().setVisible(True)
         self.tableWidget_Chemical_Formula.verticalHeader().setCascadingSectionResizes(False)
@@ -1299,14 +1299,14 @@ class Ui_MainWindow(object):
         font3.setBold(True)
         font3.setItalic(False)
         self.BtnCalculate.setFont(font3)
-        self.BtnCalculate.setCursor(QCursor(Qt.PointingHandCursor))
+        self.BtnCalculate.setCursor(QCursor(Qt.CursorShape.PointingHandCursor))
 
         self.horizontalLayout_7.addWidget(self.BtnCalculate)
 
         self.BtnDownload = QPushButton(self.frame_10)
         self.BtnDownload.setObjectName(u"BtnDownload")
         self.BtnDownload.setFont(font3)
-        self.BtnDownload.setCursor(QCursor(Qt.PointingHandCursor))
+        self.BtnDownload.setCursor(QCursor(Qt.CursorShape.PointingHandCursor))
 
         self.horizontalLayout_7.addWidget(self.BtnDownload)
 
@@ -1373,20 +1373,20 @@ class Ui_MainWindow(object):
 
         self.horizontalLayout.addWidget(self.main)
 
-        Ion_Interaction.setCentralWidget(self.stylesheet)
+        InChaP.setCentralWidget(self.stylesheet)
 
-        self.retranslateUi(Ion_Interaction)
+        self.retranslateUi(InChaP)
 
         self.stackedWidget.setCurrentIndex(3)
         self.stackedWidget_2.setCurrentIndex(1)
         self.stackedWidget_3.setCurrentIndex(0)
 
 
-        QMetaObject.connectSlotsByName(Ion_Interaction)
+        QMetaObject.connectSlotsByName(InChaP)
     # setupUi
 
-    def retranslateUi(self, Ion_Interaction):
-        Ion_Interaction.setWindowTitle(QCoreApplication.translate("MainWindow", u"Ion Interaction", None))
+    def retranslateUi(self, InChaP):
+        InChaP.setWindowTitle(QCoreApplication.translate("MainWindow", u"InChaP", None))
         self.RSPorMSPlabel_5.setText(QCoreApplication.translate("MainWindow", u"RSP or MSP", None))
         self.CmbMethod.setItemText(0, QCoreApplication.translate("MainWindow", u"Relative Stopping Power", None))
         self.CmbMethod.setItemText(1, QCoreApplication.translate("MainWindow", u"MSP, Sigma, Z_eff, N_e, and WRSP", None))
@@ -1477,7 +1477,7 @@ class Ui_MainWindow(object):
         ___qtablewidgetitem7.setText(QCoreApplication.translate("MainWindow", u"WRSP", None));
         self.BtnCalculate.setText(QCoreApplication.translate("MainWindow", u"Calculate", None))
         self.BtnDownload.setText(QCoreApplication.translate("MainWindow", u"Export Results in Excel Format", None))
-        self.label_2.setText(QCoreApplication.translate("MainWindow", u"Ion Interaction", None))
+        self.label_2.setText(QCoreApplication.translate("MainWindow", u"InChaP", None))
         self.label.setText("")
     # retranslateUi
 
