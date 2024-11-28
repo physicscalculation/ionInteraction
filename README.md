@@ -26,9 +26,7 @@ https://img.youtube.com/vi/Ck4wtqnYSKsxEzxN/0.jpg
 
 [![Watch the video](https://img.youtube.com/vi/i2fJau_8EJE/0.jpg)](https://www.youtube.com/watch?v=i2fJau_8EJE)
 
-![ionInteraction1](ionInteraction/guidata/ionInteraction1.png)
-
-![ionInteraction2](ionInteraction/guidata/ionInteraction2.png)
+### Video: Explanation of InChap
 
 This work was originally written to support the following paper, submitted to a journal:
 
