@@ -14,19 +14,7 @@ enables users to generate results for specific ions at any energy within its ope
 Results can be exported in widely used spreadsheet formats, and 
 the software is freely accessible to researchers.
 
-<!--
-https://youtu.be/i2fJau_8EJE?si=Ck4wtqnYSKsxEzxN
-
-https://img.youtube.com/vi/Ck4wtqnYSKsxEzxN/0.jpg
-
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/i2fJau_8EJE?si=Ck4wtqnYSKsxEzxN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
--->
-
-[![Watch the video](https://img.youtube.com/vi/i2fJau_8EJE/0.jpg)](https://www.youtube.com/watch?v=i2fJau_8EJE)
-
-### Video: Explanation of InChap
+![InChap Figure](InChap.png)
 
 This work was originally written to support the following paper, submitted to a journal:
 
