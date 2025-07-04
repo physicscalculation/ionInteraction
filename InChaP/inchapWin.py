@@ -9,6 +9,7 @@ import numpy as np
 from scipy.interpolate import interp1d
 import re
 from math import log10
+from pathlib import Path
 
 class MainWindow(QtWidgets.QMainWindow):
 
@@ -28,7 +29,10 @@ class MainWindow(QtWidgets.QMainWindow):
         self.N_AVAGADRO = 6.02214076e23
         self.data_folder = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data')
         # self.results_folder = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'Results')
-        self.results_folder = os.path.join('C:\\', 'Results') # Change this line for Windows app
+        # self.results_folder = os.path.join('C:\\', 'Results') # Change this line for Windows app
+
+        desktop_path = Path.home() / 'Desktop'
+        self.results_folder = desktop_path / 'InChaPResults'
 
 
 
