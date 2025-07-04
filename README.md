@@ -38,3 +38,4 @@ python3 inchap.py
 
 To use the program on a computer with a Windows operating system please send an email to `physics.calculation@gmail.com` using your email adress with `.edu` extension. Then, you will get a link to download the `inchap.exe` file.
 
+[How to install InChaP on Windows?](InChaP_Windows/README.md)
