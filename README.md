@@ -31,12 +31,12 @@ https://img.youtube.com/vi/Ck4wtqnYSKsxEzxN/0.jpg
 This work was originally written to support the following paper, submitted to a journal:
 
 ```
-@article{Buyukyildiz2024,
-title = "Introducing InChaP: A Novel Software for Calculating Charged Particle Interaction Parameters",
-journal = "submitted to Radiation Physics and Chemistry",
+@article{Cici2025,
+title = "InChaP: A Simple Software for Computation of Charged Particle Interaction Parameters",
+journal = "Nuclear Engineering and Technology",
 volume = "",
 pages = "",
-year = "2024",
+year = "2025",
 issn = "",
 author = "A. Çiçi and B. Morkoç and H. Dağ and L. Aydinbakar and M.I. Sayyed and M. Büyükyıldız"
 }
