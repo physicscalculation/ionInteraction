@@ -33,6 +33,8 @@ author = "A. Çiçi and B. Morkoç and H. Dağ and L. Aydinbakar and M.I. Sayyed
 To install the code and use on a computer with a Linux operating system you can clone this repository and run the following command on a terminal.
 
 ```
+pip3 install -r requirements.txt
+
 python3 inchap.py
 ```
 
