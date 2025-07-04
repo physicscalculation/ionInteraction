@@ -14,7 +14,7 @@ enables users to generate results for specific ions at any energy within its ope
 Results can be exported in widely used spreadsheet formats, and 
 the software is freely accessible to researchers.
 
-![InChap Figure](InChaP.png)
+![InChap Figure](./InChaP/InChaP.png)
 
 This work was originally written to support the following paper, submitted to a journal:
 
